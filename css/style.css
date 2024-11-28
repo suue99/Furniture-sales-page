@@ -302,6 +302,7 @@ body {
 /**********************************/
 .benefits-section {
   background-color: #eff2f1;
+  height: 80rem;
   padding: 12rem 0rem 10rem 7.2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -349,18 +350,18 @@ body {
   display: inline-block;
 }
 .benefits-images img:nth-child(1) {
-  height: 25rem;
-  position: absolute;
-  right: -2rem;
-  bottom: 28rem;
+  height: 22rem;
+  position: relative;
+  right: 3rem;
+  top: -8rem;
   z-index: 1;
 }
 
 .benefits-images img:nth-child(2) {
   height: 64rem;
-  margin-left: auto;
-  position: relative;
-  top: 1rem;
+  position: absolute;
+  right: 5.2rem;
+  /* top: 20rem; */
   border-radius: 3.2rem;
   z-index: 2;
 }
