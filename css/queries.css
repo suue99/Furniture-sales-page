@@ -1,0 +1,510 @@
+@media (max-width: 85em) {
+  .benefits-grid {
+    column-gap: 4rem;
+  }
+}
+
+/**********************************/
+/* BELOW 1344px (smaller computer)*/
+/**********************************/
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .section-hero {
+    height: 100vh;
+  }
+  .sofa-grid {
+    height: 46rem;
+    max-width: 100%;
+    margin-left: auto;
+    position: relative;
+    top: 4rem;
+    right: 5rem;
+    z-index: 2;
+  }
+
+  .explore-images {
+    width: 85%;
+  }
+
+  .benefits-section {
+    height: 90rem;
+  }
+
+  .benefits-text {
+    width: 50rem;
+  }
+
+  .benefits-images img {
+    display: flex;
+  }
+
+  .decorative-dots {
+    top: -2rem;
+    left: -0.4rem;
+    height: 18rem !important;
+  }
+
+  .benefits-grid {
+    column-gap: 4rem;
+  }
+
+  .help-section {
+    height: 64rem;
+  }
+
+  .chair-options-section {
+    gap: 4rem;
+  }
+
+  .couch-image {
+    padding: 4rem;
+    border-radius: 6rem;
+    margin-top: 2.8rem;
+  }
+
+  .decorative-dots {
+    top: -1rem;
+    left: -2rem;
+    height: 40rem;
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 65.5em) {
+  .main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2.8rem;
+  }
+
+  .explore-text,
+  .explore-subtext {
+    width: 24rem;
+  }
+
+  .chair-card {
+    width: 18rem;
+  }
+
+  .sofa-grid {
+    height: 36rem;
+  }
+}
+
+@media (max-width: 62em) {
+  .logo-text {
+    padding-left: 8rem;
+  }
+  .sofa-grid {
+    margin-left: 4rem;
+    height: 60rem;
+  }
+
+  .section-hero {
+    display: flex;
+    flex-direction: column;
+    height: 100rem;
+  }
+
+  .primary-header {
+    font-size: 4.8rem;
+  }
+
+  .hero-text {
+    margin-top: 5rem;
+    padding-left: 8rem;
+    width: 96%;
+  }
+
+  .hero-subtext {
+    font-size: 1.6rem;
+  }
+
+  .dots-grid {
+    bottom: 36rem;
+  }
+
+  .cta-buttons .main-nav-link {
+    font-size: 1.8rem;
+  }
+
+  .cta-buttons {
+    padding-left: 8rem;
+    margin-top: 2rem;
+  }
+
+  .explore-section {
+    background-color: #eff2f1;
+    padding: 12rem 0rem 12rem 15rem;
+    color: #2f2f2f;
+  }
+
+  .explore-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .secondary-header {
+    font-size: 3.4rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .explore-text {
+    width: 100%;
+    margin-right: 4rem;
+  }
+
+  .explore-subtext {
+    width: 85%;
+  }
+
+  .explore-images {
+    padding-left: 0;
+    gap: 4rem;
+  }
+
+  .chair-card {
+    width: 24.8rem;
+  }
+
+  .benefits-section {
+    background-color: #eff2f1;
+    height: 170rem;
+    padding: 12rem 0rem 12rem 15rem;
+  }
+
+  .benefits-grid {
+    row-gap: 2rem;
+  }
+
+  .benefits-header {
+    letter-spacing: 0.1rem;
+  }
+
+  .benefits-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .grid-subtext {
+    font-size: 1.4rem;
+    width: 80%;
+  }
+
+  .benefits-text {
+    width: 85%;
+    font-size: 1.5;
+  }
+
+  .decorative-dots {
+    top: -10rem;
+    left: -10rem;
+    height: 30rem !important;
+  }
+
+  .couch-image {
+    padding: 2rem;
+    height: 80rem !important;
+  }
+
+  .help-section {
+    padding-right: 12rem;
+    padding-left: 12rem;
+    background-color: #eff2f1;
+    height: 120rem;
+  }
+
+  .help-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8rem;
+  }
+
+  .dots {
+    position: absolute;
+    height: 26rem;
+    top: -6rem;
+    left: -5rem;
+    z-index: 1;
+  }
+
+  .help-wrapper {
+    margin-top: 6rem;
+    margin-left: 4rem;
+  }
+
+  .help-header {
+    font-size: 3.2rem;
+    letter-spacing: 0.1rem;
+    width: 100%;
+  }
+
+  .help-text {
+    font-size: 1.4rem;
+    padding: 1.2rem;
+    width: 100%;
+    line-height: 1.8;
+  }
+
+  .help-text-grid {
+    width: 100%;
+    row-gap: 1rem;
+  }
+
+  .chair-options-section {
+    background-color: #eff2f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+
+  .options-container img {
+    height: 18rem;
+    margin-left: -1rem;
+    margin-top: -2rem;
+  }
+
+  .image-wrapper {
+    height: 15rem;
+    width: 15rem;
+  }
+
+  .options-header {
+    font-size: 1.8rem;
+  }
+
+  .option-text {
+    font-size: 1.6rem;
+  }
+
+  .cta-text {
+    font-family: 1.5;
+  }
+
+  .options-text-wrapper {
+    padding-left: 12rem;
+  }
+
+  .blog-headlines {
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 3.6rem;
+  }
+
+  .blog-section {
+    padding-left: 12rem;
+    padding-right: 12rem;
+    height: 74rem;
+  }
+
+  .blog-caption {
+    font-size: 1.6rem;
+  }
+
+  .blog-date {
+    line-height: 1.8;
+  }
+
+  .upper-footer {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+  }
+
+  .footer-image {
+    height: auto;
+    position: absolute;
+    left: 54rem;
+    top: -4rem;
+  }
+
+  .subscription-section {
+    padding-top: 14rem;
+    padding-left: 12rem;
+  }
+
+  .logo-column {
+    padding-left: 3rem;
+  }
+
+  .social-icon {
+    font-size: 2.4rem;
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .lower-footer {
+    font-size: 1.2rem;
+    padding-right: 8rem;
+    gap: 6rem;
+  }
+
+  .nav-container {
+    margin-top: 4.8rem;
+  }
+
+  .additional-info {
+    margin-left: -4rem;
+  }
+
+  .copyright {
+    width: 50%;
+    line-height: 1.4;
+    padding-left: 4rem;
+  }
+
+  .divider::after {
+    border-top: 1px solid #dce5e4;
+    margin-left: 12rem;
+    padding-top: 8rem;
+    margin-right: 8rem;
+
+    max-width: 100%;
+  }
+
+  .primary-header {
+    font-size: 4.2rem;
+  }
+}
+
+@media (max-width: 62em) {
+  .main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .primary-header {
+    font-size: 3.2rem;
+  }
+
+  .grid {
+    display: grid;
+    column-gap: 1.2rem;
+    row-gap: 9.6rem;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+    z-index: 1000;
+  }
+
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.412);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+
+    /* Hide Navigation */
+    /* hide it visually */
+    opacity: 0;
+
+    /* hIde from keyboard and mouse */
+    pointer-events: none;
+
+    /* hide from screen readers */
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 57em) {
+  html {
+    font-size: 50%;
+  }
+  .sofa-grid {
+    display: none;
+  }
+
+  .main-nav-list {
+    gap: 1.6rem;
+    font-size: 0.8rem;
+  }
+
+  .logo-text {
+    font-size: 3.2rem;
+    padding-right: 4rem;
+    margin-top: -1rem;
+  }
+
+  .section-hero {
+    height: 80vh;
+  }
+
+  .primary-header {
+    font-size: 4rem;
+  }
+
+  .hero-text {
+    padding-top: 6rem;
+  }
+
+  .hero-subtext {
+    width: 70rem;
+    font-size: 1.6rem;
+  }
+
+  .middle-footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 27em) {
+  .header {
+    width: 74rem;
+  }
+
+  .main-nav {
+    width: 90rem;
+  }
+
+  .logo-text {
+    font-size: 2.4rem;
+    padding-right: -10rem;
+    margin-top: -1rem;
+  }
+}

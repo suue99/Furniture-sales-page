@@ -8,10 +8,18 @@
       content="The home for all your premium interior design needs."
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
     <script
       src="https://kit.fontawesome.com/dafa6859c8.js"
       crossorigin="anonymous"
     ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="script.js"></script>
 
     <title>Furni</title>
   </head>
@@ -32,6 +40,7 @@
           <li><a class="main-nav-link" href="#pricing">Services</a></li>
           <li><a class="main-nav-link" href="#blog">Blog</a></li>
           <li><a class="main-nav-link" href="#contact-us">Contact Us</a></li>
+
           <li>
             <a class="main-nav-link nav-icon user" href="#">
               <img src="images/user.svg" alt="user icon" />
@@ -45,10 +54,10 @@
         </ul>
       </nav>
 
-      <!-- <button class="btn-mobile-nav">
+      <button class="btn-mobile-nav">
         <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
         <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
-      </button> -->
+      </button>
     </header>
 
     <section class="section-hero">
@@ -83,14 +92,12 @@
         </div>
 
         <div class="explore-images">
-          <div class="parent-card">
-            <div class="floating-color"></div>
-            <div class="chair-card">
-              <img src="images/product-1.png" alt="brown chair with pillow" />
-              <p class="chair-text">Nordic Chair</p>
-              <p class="explore-price">$50.00</p>
-            </div>
+          <div class="chair-card">
+            <img src="images/product-1.png" alt="brown chair with pillow" />
+            <p class="chair-text">Nordic Chair</p>
+            <p class="explore-price">$50.00</p>
           </div>
+
           <div class="chair-card">
             <img src="images/product-2.png" alt="brown chair with pillow" />
             <p class="chair-text">Kruzo Aero Chair</p>
@@ -106,89 +113,118 @@
     </section>
 
     <section class="benefits-section">
-      <div class="benefits-text-wrapper">
-        <div class="benefits-text-container">
-          <h1 class="benefits-header">Why Choose Us</h1>
-          <p class="benefits-text">
-            Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
-            velit. Aliquam vulputate velit imperdiet dolor tempor tristique
-          </p>
+      <div class="benefits-container">
+        <div class="benefits-text-wrapper">
+          <div class="benefits-text-container">
+            <h1 class="benefits-header">Why Choose Us</h1>
+            <p class="benefits-text">
+              Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
+              velit. Aliquam vulputate velit imperdiet dolor tempor tristique
+            </p>
+          </div>
+
+          <div class="benefits-grid">
+            <div class="grid-content">
+              <img src="images/truck.svg" alt="support logo" />
+              <h4 class="grid-header">Fast and free shipping</h4>
+              <p class="grid-subtext">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                consequuntur dolorum quam
+              </p>
+            </div>
+            <div class="grid-content">
+              <img src="images/bag.svg" alt="support logo" />
+              <h4 class="grid-header">Easy to shop</h4>
+              <p class="grid-subtext">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                consequuntur dolorum quam
+              </p>
+            </div>
+            <div class="grid-content">
+              <img src="images/support.svg" alt="support logo" />
+              <h4 class="grid-header">24/7 Support</h4>
+              <p class="grid-subtext">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                consequuntur dolorum quam
+              </p>
+            </div>
+
+            <div class="grid-content">
+              <img src="images/return.svg" alt="support logo" />
+              <h4 class="grid-header">Hassle Free Returns</h4>
+              <p class="grid-subtext">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                consequuntur dolorum quam
+              </p>
+            </div>
+          </div>
         </div>
 
-        <div class="benefits-grid">
-          <div class="grid-content">
-            <img src="images/truck.svg" alt="support logo" />
-            <h4 class="grid-header">Fast and free shipping</h4>
-            <p class="grid-subtext">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-              consequuntur dolorum quam
-            </p>
-          </div>
-          <div class="grid-content">
-            <img src="images/bag.svg" alt="support logo" />
-            <h4 class="grid-header">Easy to shop</h4>
-            <p class="grid-subtext">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-              consequuntur dolorum quam
-            </p>
-          </div>
-          <div class="grid-content">
-            <img src="images/support.svg" alt="support logo" />
-            <h4 class="grid-header">24/7 Support</h4>
-            <p class="grid-subtext">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-              consequuntur dolorum quam
-            </p>
-          </div>
+        <div class="benefits-images">
+          <img
+            src="images/dots-yellow.svg"
+            alt="dots"
+            class="decorative-dots"
+          />
 
-          <div class="grid-content">
-            <img src="images/return.svg" alt="support logo" />
-            <h4 class="grid-header">Hassle Free Returns</h4>
-            <p class="grid-subtext">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-              consequuntur dolorum quam
-            </p>
-          </div>
+          <img
+            src="images/why-choose-us-img.jpg"
+            alt="a sofa and lamp image"
+            class="couch-image"
+          />
         </div>
-      </div>
-
-      <div class="benefits-images">
-        <img src="images/dots-yellow.svg" alt="dots" />
-        <img src="images/why-choose-us-img.jpg" alt="a sofa and lamp image" />
       </div>
     </section>
 
     <section class="help-section">
-      <div class="help-images">
-        <img class="dots" src="images/dots-green.svg" alt="green dots" />
-        <img src="images/img-grid-1.jpg" alt="plants and a couch" />
-        <img src="images/img-grid-2.jpg" alt="plants and a couch" />
-        <img src="images/img-grid-3.jpg" alt="plants and a couch" />
-      </div>
-      <div class="help-wrapper">
-        <h2 class="help-header">We Help You Make Modern Interior Design</h2>
-        <p class="help-text">
-          Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis
-          nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate
-          velit imperdiet dolor tempor tristique. Pellentesque habitant morbi
-          tristique senectus et netus et malesuada
-        </p>
-        <div class="help-text-grid">
-          <p class="help-subtext">
-            &bullet;Donec vitae odio quis nisl dapibus malesuada
-          </p>
-          <p class="help-subtext">
-            &bullet;Donec vitae odio quis nisl dapibus malesuada
-          </p>
-          <p class="help-subtext">
-            &bullet;Donec vitae odio quis nisl dapibus malesuada
-          </p>
-          <p class="help-subtext">
-            &bullet;Donec vitae odio quis nisl dapibus malesuada
-          </p>
+      <div class="help-container">
+        <div class="help-images">
+          <img class="dots" src="images/dots-green.svg" alt="green dots" />
+          <img
+            src="images/img-grid-1.jpg"
+            alt="plants and a couch"
+            class="plant-couch"
+          />
+          <img
+            src="images/img-grid-2.jpg"
+            alt="plants and a couch"
+            class="lamp-chair"
+          />
+          <img
+            src="images/img-grid-3.jpg"
+            alt="plants and a couch"
+            class="stool"
+          />
         </div>
-        <div>
-          <a href="#cta" class="explore-cta margin-tp">Explore</a>
+        <div class="help-wrapper">
+          <div>
+            <h2 class="help-header">We Help You Make Modern Interior Design</h2>
+            <p class="help-text">
+              Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio
+              quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
+              vulputate velit imperdiet dolor tempor tristique. Pellentesque
+              habitant morbi tristique senectus et netus et malesuada
+            </p>
+          </div>
+
+          <div class="help-text-grid">
+            <p class="help-subtext">
+              &bullet;Donec vitae odio quis nisl dapibus malesuada
+            </p>
+            <p class="help-subtext">
+              &bullet;Donec vitae odio quis nisl dapibus malesuada
+            </p>
+            <p class="help-subtext">
+              &bullet;Donec vitae odio quis nisl dapibus malesuada
+            </p>
+            <p class="help-subtext">
+              &bullet;Donec vitae odio quis nisl dapibus malesuada
+            </p>
+          </div>
+
+          <div class="explore-cta help-cta">
+            <a href="#cta">Explore</a>
+          </div>
         </div>
       </div>
     </section>
@@ -199,7 +235,7 @@
           <img src="images/product-1.png" alt="chair option" />
         </div>
         <div class="options-text-wrapper">
-          <h4>Nordic Chair</h4>
+          <h5 class="options-header">Nordic Chair</h5>
           <p class="option-text">
             Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio
           </p>
@@ -211,7 +247,7 @@
           <img src="images/product-2.png" alt="chair option" />
         </div>
         <div class="options-text-wrapper">
-          <h4>Kruzo Aero Chair</h4>
+          <h5 class="options-header">Kruzo Aero Chair</h5>
           <p class="option-text">
             Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio
           </p>
@@ -223,7 +259,7 @@
           <img src="images/product-3.png" alt="chair option" />
         </div>
         <div class="options-text-wrapper">
-          <h4>Ergonomic Chair</h4>
+          <h5 class="options-header">Ergonomic Chair</h5>
           <p class="option-text">
             Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio
           </p>
@@ -296,12 +332,14 @@
           <span class="dot"></span>
         </div>
 
-        <button class="carousel-prev">
-          <i class="fa-solid fa-circle-chevron-left"></i>
-        </button>
-        <button class="carousel-next">
-          <i class="fa-solid fa-circle-chevron-right"></i>
-        </button>
+        <div class="carousel-buttons">
+          <button class="carousel-prev" aria-label="previous-button">
+            <i class="fa-solid fa-circle-chevron-left"></i>
+          </button>
+          <button class="carousel-next" aria-label="next-button">
+            <i class="fa-solid fa-circle-chevron-right"></i>
+          </button>
+        </div>
       </div>
     </section>
 
@@ -371,8 +409,99 @@
           <img src="images/sofa.png" alt="green sofa" />
         </div>
       </div>
-      <div class="middle-footer"></div>
-      <div class="lower-footer"></div>
+      <div class="middle-footer">
+        <div class="middle-footer-container">
+          <div class="logo-column">
+            <a href="#" class="footer-logo"> Furni. </a>
+
+            <p class="footer-text">
+              Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio
+              quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
+              vulputate velit imperdiet dolor tempor tristique. Pellentesque
+              habitant
+            </p>
+
+            <ul class="social-links">
+              <li>
+                <a class="footer-link" href="#facebook"
+                  ><i class="social-icon fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a class="footer-link" href="#twitter"
+                  ><i class="social-icon fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a class="footer-link" href="#insta"
+                  ><i class="social-icon fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a class="footer-link" href="#linkedin"
+                  ><i class="social-icon fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="nav-container grid grid--footer">
+          <nav class="nav-col">
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#about">About Us </a></li>
+              <li><a class="footer-link" href="#services"> Services </a></li>
+              <li><a class="footer-link" href="#blog"> Blog </a></li>
+              <li><a class="footer-link" href="#contact"> Contact Us </a></li>
+            </ul>
+          </nav>
+
+          <nav class="nav-col">
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#support"> Support </a></li>
+              <li>
+                <a class="footer-link" href="#knowledge"> Knowledge Base </a>
+              </li>
+              <li><a class="footer-link" href="#livechat"> Live Chat </a></li>
+            </ul>
+          </nav>
+          <nav class="nav-col">
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#jobs"> Jobs </a></li>
+              <li><a class="footer-link" href="#team">Our Team </a></li>
+              <li>
+                <a class="footer-link" href="#leadership"> Leadership </a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="nav-col">
+            <ul class="footer-nav">
+              <li>
+                <a class="footer-link" href="#nordic"> Nordic Chair </a>
+              </li>
+              <li><a class="footer-link" href="#kruxo">Kruzo Aero </a></li>
+              <li>
+                <a class="footer-link" href="#ergo"> Ergonomic Chair </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="lower-footer">
+        <div class="copyright">
+          <p>
+            Copyright ©2024. All Rights Reserved. — Designed with love by
+            Untree.co Built by SUUE
+          </p>
+        </div>
+        <div class="additional-info">
+          <p>Terms & Conditions</p>
+          <p>Privacy Policy</p>
+        </div>
+      </div>
     </footer>
 
     <script
