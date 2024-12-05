@@ -11,7 +11,7 @@ html {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 body {
@@ -79,6 +79,7 @@ body {
   left: 0;
   width: 0;
   height: 0.4rem;
+
   background-color: #f8c045;
   transition: width 0.3s ease-in-out;
 }
@@ -109,7 +110,7 @@ body {
 
 .nav-icon {
   font-size: 2.4rem !important;
-  color: #fff !important;
+  color: black;
 }
 
 .user {
@@ -824,7 +825,7 @@ body {
 }
 
 .footer-header {
-  margin-top: 0.5rem;
+  margin-top: 0.8rem;
   color: #3b5d50;
   font-weight: 500;
 }

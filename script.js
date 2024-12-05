@@ -1,46 +1,45 @@
+// Select elements
 const btnNavEl = document.querySelector(".btn-mobile-nav");
 const headerEl = document.querySelector(".header");
 
+// Toggle mobile navigation
 btnNavEl.addEventListener("click", function () {
   headerEl.classList.toggle("nav-open");
 });
 
-btnNavEl.addEventListener("click", function () {
-  console.log("Hamburger clicked");
-  headerEl.classList.toggle("nav-open");
-});
-
-// smooth scrolling
+// Smooth scrolling for all links
 const allLinks = document.querySelectorAll("a:link");
 
 allLinks.forEach(function (link) {
   link.addEventListener("click", function (e) {
     e.preventDefault();
+
     const href = link.getAttribute("href");
 
-    // scroll back to top
-    if (href == "#")
+    // Scroll back to top
+    if (href === "#") {
       window.scrollTo({
         top: 0,
         behavior: "smooth",
       });
+    }
 
-    // scroll to other links
+    // Scroll to other sections
     if (href !== "#" && href.startsWith("#")) {
       const sectionEl = document.querySelector(href);
       sectionEl.scrollIntoView({ behavior: "smooth" });
     }
 
-    // close mobile navigation
-    if (link.classList.contains("main-nav-link"))
-      headerEl.classList.toggle("nav-open");
+    // Close mobile navigation
+    if (link.classList.contains("main-nav-link")) {
+      headerEl.classList.remove("nav-open");
+    }
   });
 });
 
-//////////////////////////////////////////////
-// Fixing flexbox gap property missing in some Safari versions
+// Fixing flexbox gap issue for older Safari
 function checkFlexGap() {
-  var flex = document.createElement("div");
+  const flex = document.createElement("div");
   flex.style.display = "flex";
   flex.style.flexDirection = "column";
   flex.style.rowGap = "1px";
@@ -49,10 +48,11 @@ function checkFlexGap() {
   flex.appendChild(document.createElement("div"));
 
   document.body.appendChild(flex);
-  var isSupported = flex.scrollHeight === 1;
+  const isSupported = flex.scrollHeight === 1;
   flex.parentNode.removeChild(flex);
-  console.log(isSupported);
 
-  if (!isSupported) document.body.classList.add("no-flexbox-gap");
+  if (!isSupported) {
+    document.body.classList.add("no-flexbox-gap");
+  }
 }
 checkFlexGap();
