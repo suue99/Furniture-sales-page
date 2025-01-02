@@ -13,7 +13,7 @@
   }
 
   .section-hero {
-    height: 50vh;
+    height: 66vh;
   }
   .sofa-grid {
     height: 46rem;
@@ -167,6 +167,7 @@
   .explore-images {
     padding-left: 0;
     gap: 4rem;
+    padding-left: 8rem !important;
   }
 
   .chair-card {
@@ -175,8 +176,8 @@
 
   .benefits-section {
     background-color: #eff2f1;
-    height: 205rem;
-    padding: 2rem 12rem 10rem 12rem;
+    height: 190rem;
+    padding: 2rem 8rem 10rem 8rem;
   }
 
   .benefits-images img {
@@ -348,6 +349,7 @@
 
   .logo-column {
     padding-left: 3rem;
+    padding-right: 4rem;
   }
 
   .social-icon {
@@ -570,23 +572,35 @@
 }
 
 @media (max-width: 35em) {
-  .section-hero {
-    height: 60vh;
+  .header {
+    padding: 0 2rem;
   }
 
-  .hero-container {
-    padding-right: 4rem;
+  .logo-text {
+    padding-left: 4rem;
+  }
+  .section-hero {
+    height: 44vh;
+  }
+
+  .hero-text {
+    padding-left: 2rem !important;
+  }
+
+  .cta-buttons {
+    padding-left: 2rem !important;
   }
 
   .primary-header {
     font-size: 3rem;
   }
+
   .hero-subtext {
     width: 90%;
   }
 
   .btn-mobile-nav {
-    right: 10rem;
+    right: 5rem;
     top: 1.6rem;
   }
 
@@ -597,9 +611,8 @@
   .explore-images {
     flex-direction: column;
     gap: 6rem;
-    margin-top: 8rem;
+    margin-top: 4rem;
     align-self: center;
-    padding-left: 2rem;
   }
 
   .chair-card {
@@ -712,7 +725,7 @@
   }
 
   .middle-footer-container {
-    width: 38rem;
+    width: 32rem;
   }
 
   .grid--footer {
@@ -729,5 +742,9 @@
     font-size: 2.4rem;
     padding-right: -10rem;
     margin-top: -1rem;
+  }
+
+  .explore-images {
+    padding-left: 1rem !important;
   }
 }
