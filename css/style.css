@@ -41,7 +41,7 @@ body {
   align-items: center;
   background-color: #3b5d50;
   height: 8.6rem;
-  padding: 0 6.4rem;
+  padding: 0 4rem;
 }
 
 .logo-text {
@@ -147,7 +147,7 @@ body {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   position: relative;
-  padding: 0 6.2rem;
+  padding: 0 4rem;
   color: #fff;
   overflow: hidden;
 }
