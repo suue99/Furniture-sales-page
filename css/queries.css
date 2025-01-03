@@ -30,7 +30,7 @@
   }
 
   .benefits-section {
-    height: 90rem;
+    height: 98rem;
   }
 
   .benefits-text {
@@ -52,7 +52,7 @@
   }
 
   .help-section {
-    height: 64rem;
+    height: 70rem;
   }
 
   .chair-options-section {
@@ -176,7 +176,7 @@
 
   .benefits-section {
     background-color: #eff2f1;
-    height: 190rem;
+    height: 160rem;
     padding: 2rem 8rem 10rem 8rem;
   }
 
@@ -234,10 +234,6 @@
     gap: 8rem;
   }
 
-  .help-text-grid {
-    grid-template-columns: none;
-  }
-
   .dots {
     position: absolute;
     height: 26rem;
@@ -288,6 +284,7 @@
   .image-wrapper {
     height: 15rem;
     width: 15rem;
+    margin-left: 4rem;
   }
 
   .options-header {
@@ -545,8 +542,16 @@
     height: 50vh;
   }
 
+  .benefits-section {
+    height: 190rem !important;
+  }
+
   .primary-header {
     font-size: 4rem;
+  }
+
+  .help-section {
+    height: 100rem !important;
   }
 
   .hero-subtext {
@@ -580,7 +585,7 @@
     padding-left: 4rem;
   }
   .section-hero {
-    height: 44vh;
+    height: 50vh;
   }
 
   .hero-text {
@@ -656,6 +661,7 @@
   .help-wrapper {
     margin-top: 0;
     margin-left: 0;
+    width: 26rem;
   }
 
   .help-header {
@@ -668,6 +674,10 @@
 
   .help-subtext {
     font-size: 1.6rem;
+  }
+
+  .help-images {
+    display: none;
   }
 
   /* .chair-options-section {
@@ -708,8 +718,17 @@
     height: 150rem;
   }
 
+  .blog-image-card img {
+    width: 50rem;
+    height: 20rem;
+  }
+
   .footer-image {
     display: none;
+  }
+
+  .divider::after {
+    margin-left: 8rem;
   }
 
   .subscription-section {
@@ -730,6 +749,24 @@
 
   .grid--footer {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .help-text-grid {
+    grid-template-columns: none;
+  }
+
+  .lower-footer {
+    flex-direction: column;
+  }
+
+  .copyright {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .additional-info {
+    margin-left: 2rem;
+    gap: 6rem;
   }
 }
 
